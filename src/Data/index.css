@@ -1,0 +1,63 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.Profile{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(180deg,pink,teal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .Profile .cont{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 80%;
+   margin: 20px auto;
+  }
+  
+  .cont img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .sub-cont label{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+  }
+
+  .sub-cont p{
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
+  }
+  
+  .cont .sub-cont{
+    width: 150px; 
+  }
+  
+  .Card{
+    width: 300px;
+    height: auto;
+    background: linear-gradient(teal,black);
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+  }
+  .Card h3{
+    color: blanchedalmond;
+  }
+  .Profile button{
+    width: 100px;
+    height: 150 ;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    border: none;
+    margin: 12px 0;
+    font-size: 15px;
+  }
